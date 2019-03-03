@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/logs/main",
+    "pages/counter/main",
+    "pages/catalogue/main",
+    "pages/list/main",
+    "pages/personal/main",
+    "pages/detail/main",
+    "pages/9dot9/main",
+    "pages/preferential/main",
+    "pages/hotlist/main",
+    "pages/praiselist/main",
+    "pages/notice/main",
+    "pages/friedfood/main",
+    "pages/departmentstore/main",
+    "pages/grainandoil/main"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "优惠券商城",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/main",
+        "text": "首页",
+        "iconPath": "images/navigation_1.png",
+        "selectedIconPath": "images/sel_1.png"
+      },
+      {
+        "pagePath": "pages/catalogue/main",
+        "text": "分类",
+        "iconPath": "images/navigation_2.png",
+        "selectedIconPath": "images/sel_2.png"
+      },
+      {
+        "pagePath":"pages/list/main",
+        "text":"实时榜",
+        "iconPath": "images/navigation_3.png",
+        "selectedIconPath": "images/sel_3.png"
+      },
+      {
+        "pagePath":"pages/personal/main",
+        "text":"我的",
+        "iconPath": "images/navigation_4.png",
+        "selectedIconPath": "images/sel_4.png"
+      }
+    ]
+  }
+}
